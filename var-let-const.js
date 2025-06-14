@@ -13,8 +13,24 @@
 //console.log(count);
 
 //array reassign//
-const numbers = [11,22,12,88,99,75,33];
+//const numbers = [11,22,12,88,99,75,33];
 //numbers = [4,5,7,9,11];  it is not posssiable
-numbers [1] = 55;
-numbers.push(7,8,9);
-console.log(numbers);
+//numbers [1] = 55;
+//numbers.push(7,8,9);
+//console.log(numbers);//
+
+//object 
+const student = {
+    name: 'jan pakhi',
+    class:12
+}
+
+// student = {name:'kokil konthi'}
+student.name = 'moyur konthi';
+console.log(student);
+//loop
+let sum = 0;
+for(let i=0; i<10; i++){
+    sum = sum + i;
+}
+console.log(sum);
